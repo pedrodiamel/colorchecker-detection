@@ -1,0 +1,15 @@
+{
+    "netmodel": "model.caffemodel", 
+    "framework": "caffe", 
+    "caffe flavor": "NVIDIA", 
+    "image_dimensions": [
+        640, 
+        1024, 
+        3
+    ], 
+    "camara device": 0, 
+    "netname": "detectnet", 
+    "netpath": "models/detection", 
+    "caffe version": "0.15.13", 
+    "netproto": "deploy.prototxt"
+}

@@ -1,0 +1,12 @@
+
+SET(SRC
+	app_system.h
+	app_system.cpp	
+	app_mcc.h
+	app_mcc.cpp
+)
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${SRC})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${OpenCV_LIBS} mcclib)
+INCLUDE_DIRECTORIES("${PROJECT_SOURCE_DIR}" "${PROJECT_SOURCE_DIR}/mcclib" )
+INSTALL(TARGETS ${PROJECT_NAME} DESTINATION bin) 
