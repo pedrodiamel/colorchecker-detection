@@ -1,8 +1,27 @@
-# MacBeth Color Chart Detector BRRES - 59 #
+# Fast and Robust Multiple ColorChecker Detection
 
-ColorCheckers are reference standards that professional photographers and filmmakers use to ensure predictable results under every lighting condition. The objective of this work is to propose a new fast and robust method for automatic ColorChecker detection. The process is divided into two steps: (1) ColorCheckers localization and (2) ColorChecker patches recognition. 
+<div align="center">
+<img src="rec/mcc.gif" width="640">
+</div>
+
+This code implements a multiple colorChecker detection method, as described in the paper Fast and Robust Multiple ColorChecker Detection. The process is divided into two steps: (1) ColorCheckers localization and (2) ColorChecker patches recognition.
 
 ![Pipeline](rec/pipeline_general.png)
+
+- Results of MCCNetFind for the synthetic dataset
+
+<div align="center">
+<img src="rec/datasetsyntheticresult.png" width="1024">
+</div>
+
+- Results of MCCNetFind for the real dataset
+
+<div align="center">
+<img src="rec/datasetrealresult.png" width="1024">
+</div>
+
+
+---
 
 
 Requirements
@@ -65,6 +84,11 @@ options:
 
 
 
-### Results
 
-![Results](rec/mcc.gif)
+
+
+
+Acknowledgments
+------------
+
+This work was supported by the research cooperation project between Motorola Mobility (a Lenovo Company) and CIn-UFPE. Tsang Ing Ren, Pedro D. Marrero Fernandez and Fidel A. Guerrero-Peña gratefully acknowledge financial support from the Brazilian government agency FACEPE. The authors would also like to thank Leonardo Coutinho de Mendonça, Alexandre Cabral Mota, Rudi Minghim and Gabriel Humpire for valuable discussions.
