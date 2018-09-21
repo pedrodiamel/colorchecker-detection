@@ -1,10 +1,14 @@
+
 # Fast and Robust Multiple ColorChecker Detection
 
-<div align="center">
-<img src="rec/mcc.gif" width="320">
 
-This code implements a multiple colorChecker detection method, as described in the paper Fast and Robust Multiple ColorChecker Detection. The process is divided into two steps: (1) ColorCheckers localization and (2) ColorChecker patches recognition.
-
+<div>
+	<div align="center" >
+	<img src="rec/mcc.gif" width="320">
+	</div>
+	<div>
+	<p>This code implements a multiple colorChecker detection method, as described in the paper Fast and Robust Multiple ColorChecker Detection. The process is divided into two steps: (1) ColorCheckers localization and (2) ColorChecker patches recognition.</p>
+	</div>
 </div>
 
 
