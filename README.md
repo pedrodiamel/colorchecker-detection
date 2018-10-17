@@ -90,7 +90,13 @@ options:
 
 
 
+Authors
+------------
 
+- Pedro D. Marrero Fernández
+- Fidel A. Guerrero Peña
+- Tsang Ing Ren
+- Jorge J. G. Leandro
 
 
 Acknowledgments
