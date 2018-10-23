@@ -1,5 +1,9 @@
 
-# Fast and Robust Multiple ColorChecker Detection
+# Fast and Robust Multiple ColorChecker Detection ([arXiv](https://arxiv.org/abs/1810.08639))
+ 
+[Pedro D. Marrero Fernandez](https://pedrodiamel.github.io/)<sup>1</sup>, [Fidel A. Guerrero-Peña](https://www.linkedin.com/in/fidel-alejandro-guerrero-pe%C3%B1a-602634109/)<sup>1</sup>, [Tsang Ing Ren](https://www.linkedin.com/in/ing-ren-tsang-6551371/)<sup>1</sup>, [Jorge J. G. Leandro](https://www.linkedin.com/in/jorgejgleandro/)<sup>2</sup>
+
+<sup>1</sup>Universidade Federal de Pernambuco, <sup>2</sup>Motorola Mobility LLC, a Lenovo Company  
 
 
 <div>
@@ -87,16 +91,6 @@ options:
 	usage: mccfindnet.py [-h] --configurate C [--no-gpu] [--json] [--no-show]
                      [--draw-cam] [--camdevice N] [--border N]
 
-
-
-
-Authors
-------------
-
-- Pedro D. Marrero Fernández
-- Fidel A. Guerrero Peña
-- Tsang Ing Ren
-- Jorge J. G. Leandro
 
 
 Acknowledgments
