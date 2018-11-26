@@ -1,21 +1,21 @@
-
-# Fast and Robust Multiple ColorChecker Detection ([arXiv](https://arxiv.org/abs/1810.08639))
+# Fast and Robust Multiple ColorChecker Detection
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
  
-[Pedro D. Marrero Fernandez](https://pedrodiamel.github.io/)<sup>1</sup>, [Fidel A. Guerrero-Peña](https://www.linkedin.com/in/fidel-alejandro-guerrero-pe%C3%B1a-602634109/)<sup>1</sup>, [Tsang Ing Ren](https://www.linkedin.com/in/ing-ren-tsang-6551371/)<sup>1</sup>, [Jorge J. G. Leandro](https://www.linkedin.com/in/jorgejgleandro/)<sup>2</sup>
-
-<sup>1</sup>Universidade Federal de Pernambuco, <sup>2</sup>Motorola Mobility LLC, a Lenovo Company  
-
-
 <div>
-	<div align="center" >
-	<img src="rec/mcc.gif" width="320">
-	</div>
-	<div>
-	<p>This code implements a multiple colorChecker detection method, as described in the paper Fast and Robust Multiple ColorChecker Detection. The process is divided into two steps: (1) ColorCheckers localization and (2) ColorChecker patches recognition.</p>
-	</div>
+<div align="center" >
+<img src="rec/mcc.gif" width="420">
+</div>
 </div>
 
+### [Paper](https://doi.org/10.1016/j.imavis.2018.11.001) | [arXiv](https://arxiv.org/abs/1810.08639)
 
+[Pedro D. Marrero Fernandez](https://pedrodiamel.github.io/)<sup>1</sup>, [Fidel A. Guerrero-Peña](https://www.linkedin.com/in/fidel-alejandro-guerrero-pe%C3%B1a-602634109/)<sup>1</sup>, [Tsang Ing Ren](https://www.linkedin.com/in/ing-ren-tsang-6551371/)<sup>1</sup>, [Jorge J. G. Leandro](https://www.linkedin.com/in/jorgejgleandro/)<sup>2</sup>  
+
+<sup>1</sup>Universidade Federal de Pernambuco, <sup>2</sup>Motorola Mobility LLC, a Lenovo Company 
+ 
+In Image and Vision Computing 2018
+
+This code implements a multiple colorChecker detection method, as described in the paper Fast and Robust Multiple ColorChecker Detection. The process is divided into two steps: (1) ColorCheckers localization and (2) ColorChecker patches recognition.
 
 ![Pipeline](rec/pipeline_general.png)
 
@@ -92,6 +92,23 @@ options:
                      [--draw-cam] [--camdevice N] [--border N]
 
 
+Citation
+------------
+
+If you find this useful for your research, please cite the following paper.
+
+```
+@article{MARREROFERNANDEZ2018,
+   title = "Fast and Robust Multiple ColorChecker Detection using Deep Convolutional Neural Networks",
+   journal = "Image and Vision Computing",
+   year = "2018",
+   issn = "0262-8856",
+   doi = "https://doi.org/10.1016/j.imavis.2018.11.001",
+   url = "http://www.sciencedirect.com/science/article/pii/S0262885618301793",
+   author = "Pedro D. Marrero Fernández and Fidel A. Guerrero Peña 
+             and Tsang Ing Ren and Jorge J.G. Leandro",
+}
+```
 
 Acknowledgments
 ------------
