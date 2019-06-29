@@ -40,7 +40,7 @@ This installation package contains support for opencv compilation for Windows in
 
 - apt-get update 
 - apt-get upgrade
-- [nvcaffe](http://www.nvidia.com/object/caffe-installation.html)
+- [nvcaffe](https://github.com/NVIDIA/caffe)
 - echo "export PYTHONPATH=/opt/nvcaffe/python" >> ~/.bashrc
 - exho "export PATH=/opt/nvcaffe/build/tools:/opt/nvcaffe/python:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin " >> ~/.bashrc
 - source ~/.bashrc
